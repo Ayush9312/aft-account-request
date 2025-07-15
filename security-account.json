@@ -1,0 +1,12 @@
+{
+  "control_tower_parameters": {
+    "AccountEmail": "security@example.com",
+    "AccountName": "Security-Account",
+    "ManagedOrganizationalUnit": "security"
+  },
+  "account_tags": {
+    "Environment": "dev",
+    "OU": "security"
+  },
+  "change_requested_by": "aft"
+}
