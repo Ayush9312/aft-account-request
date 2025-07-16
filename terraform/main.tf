@@ -10,13 +10,6 @@ module "sandbox" {
     SSOUserLastName          = "AFT"
   }
 
-  providers = {
-    aws.ct_management   = aws.ct_management
-    aws.log_archive     = aws.log_archive
-    aws.audit           = aws.audit
-    aws.aft_management  = aws.aft_management
-  }
-
   account_tags = {
     "AFT-Accounts" = "sandbox"
   }
