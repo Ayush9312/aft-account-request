@@ -1,17 +1,17 @@
-module "sandbox" {
+module "workload" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail             = "ksk@gmail.com"
-    AccountName              = "sandbox-aft"
-    ManagedOrganizationalUnit = "Sandbox"
+    AccountName              = "workload-aft"
+    ManagedOrganizationalUnit = "workload"
     SSOUserEmail             = "ksk@gmail.com"
-    SSOUserFirstName         = "Sandbox"
+    SSOUserFirstName         = "workload"
     SSOUserLastName          = "AFT"
   }
 
   account_tags = {
-    "AFT-Accounts" = "sandbox"
+    "AFT-Accounts" = "workload"
   }
 
   change_management_parameters = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "workload"
 }
