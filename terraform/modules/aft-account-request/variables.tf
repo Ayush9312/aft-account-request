@@ -1,6 +1,9 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
+
+### variable block ###
+
 variable "account-request-table" {
   type        = string
   description = "name of account-request-table"

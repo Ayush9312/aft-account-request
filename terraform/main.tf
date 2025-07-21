@@ -67,3 +67,6 @@ module "workload_account_01" {
 #
 #  account_customizations_name = "workloadaccount"
 #}
+
+
+### adding accounts one by one for customization ###

@@ -1,6 +1,9 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
+
+### dynamo db creation ###
+
 resource "aws_dynamodb_table_item" "account-request" {
   table_name = var.account-request-table
   hash_key   = var.account-request-table-hash
